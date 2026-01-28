@@ -1,3 +1,5 @@
+-- Vaida Blomquist's sql
+-- Finds sales value greater than 300000 and acres poly less than 1
 CREATE OR REPLACE VIEW student.v_parcels_final AS
 SELECT
   defaultdb.enterprise.parcels_core.pin,
